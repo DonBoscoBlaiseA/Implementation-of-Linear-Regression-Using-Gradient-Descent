@@ -8,8 +8,8 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
+1. Import necessary libraries such as numpy and pandas, also import StandardScaler.
+2. Create a function for linear regression and import the csv file.
 3. 
 4. 
 
@@ -62,7 +62,14 @@ print(f"Predicted value: {pre}")
 ```
 
 ## Output:
+```
 ![linear regression using gradient descent](sam.png)
+```
+![Screenshot (207)](https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/cb93aba5-4ac8-440a-b561-486e6b6eb5e6)
+![Screenshot (208)](https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/50cfb905-8f1d-4f21-a1f1-dabcdd0cf717)
+![Screenshot (209)](https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/845a8321-5e53-429e-aca7-a27f834939c8)
+![Screenshot (210)](https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/8a35d235-d59e-42f3-a65a-9559c1a2a122)
+![Screenshot (211)](https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/f9f0bf59-bca4-439e-8803-085845ceea3c)
 
 
 ## Result:
