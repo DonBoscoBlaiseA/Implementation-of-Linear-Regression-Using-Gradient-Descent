@@ -44,10 +44,6 @@ data.head()
 #Assuming the last column is your target variable 'y' and the preceding columns
 X=(data.iloc[1:,:-2].values)
 X1=X.astype(float)
-```
-
-
-```
 scaler=StandardScaler()
 y=(data.iloc[1:,-1].values).reshape(-1,1)
 X1_Scaled=scaler.fit_transform(X1)
@@ -55,6 +51,9 @@ Y1_Scaled=scaler.fit_transform(y)
 print(X)
 print(X1_Scaled)
 #learn model parameters
+```
+
+```
 theta=linear_regression(X1_Scaled,Y1_Scaled)
 #predict target value for a new data point
 new_data=np.array([165349.2,136897.8,471784.1]).reshape(-1,1)
