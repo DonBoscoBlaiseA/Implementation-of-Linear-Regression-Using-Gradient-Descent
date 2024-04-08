@@ -8,10 +8,12 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Import necessary libraries such as numpy and pandas, also import StandardScaler.
-2. Create a function for linear regression and import the csv file.
-3. 
-4. 
+1. Import StandardScaler to standardize the features and target variable.
+2. Implement a function for linear regression with gradient descent, taking input features X1, target variable y, learning rate, and number of iterations as parameters.
+3. Add a column of ones to feature matrix X for the intercept term and initialize theta (parameters) with zeros.
+4. Iterate through the specified number of iterations, computing predictions, errors, and updating theta using gradient descent.
+5. Read the dataset into a DataFrame, assuming the last column as the target variable 'y' and preceding columns as features 'X'.
+6. Standardize the features and target variable using StandardScaler, learn model parameters using linear_regression function, and predict the target value for a new data point after scaling it.
 
 ## Program:
 ```
@@ -62,9 +64,6 @@ print(f"Predicted value: {pre}")
 ```
 
 ## Output:
-```
-![linear regression using gradient descent](sam.png)
-```
 ![Screenshot (207)](https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/cb93aba5-4ac8-440a-b561-486e6b6eb5e6)
 ![Screenshot (208)](https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/50cfb905-8f1d-4f21-a1f1-dabcdd0cf717)
 ![Screenshot (209)](https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/845a8321-5e53-429e-aca7-a27f834939c8)
