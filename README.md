@@ -22,8 +22,7 @@ Program to implement the linear regression using gradient descent.
 Developed by: Don Bosco Blaise A
 RegisterNumber: 212221040045
 */
-```
-```
+
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
