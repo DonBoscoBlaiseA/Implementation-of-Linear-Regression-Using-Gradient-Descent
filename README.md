@@ -44,7 +44,10 @@ data.head()
 #Assuming the last column is your target variable 'y' and the preceding columns
 X=(data.iloc[1:,:-2].values)
 X1=X.astype(float)
+```
 
+
+```
 scaler=StandardScaler()
 y=(data.iloc[1:,-1].values).reshape(-1,1)
 X1_Scaled=scaler.fit_transform(X1)
