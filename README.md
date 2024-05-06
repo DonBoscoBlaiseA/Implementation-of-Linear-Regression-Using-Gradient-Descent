@@ -65,9 +65,9 @@ print(f"Predicted value: {pre}")
 
 ## Output:
 <img src="https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/cb93aba5-4ac8-440a-b561-486e6b6eb5e6.png" height="300">
-<img src="https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/50cfb905-8f1d-4f21-a1f1-dabcdd0cf717.png" height="500">
-<img src="https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/845a8321-5e53-429e-aca7-a27f834939c8.png" height="500">
-<img src="https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/8a35d235-d59e-42f3-a65a-9559c1a2a122.png" height="500">
+<img src="https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/50cfb905-8f1d-4f21-a1f1-dabcdd0cf717.png" height="700">
+<img src="https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/845a8321-5e53-429e-aca7-a27f834939c8.png" height="700">
+<img src="https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/8a35d235-d59e-42f3-a65a-9559c1a2a122.png" height="700">
 <img src="https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/f9f0bf59-bca4-439e-8803-085845ceea3c.png" height="200">  
 
 ## Result:
