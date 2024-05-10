@@ -76,6 +76,10 @@ print(f"Predicted value: {pre}")
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
 <br>  
 
 ## Result:
