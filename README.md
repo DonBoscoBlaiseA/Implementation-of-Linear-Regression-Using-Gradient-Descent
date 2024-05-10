@@ -55,7 +55,6 @@ Y1_Scaled=scaler.fit_transform(y)
 print(X)
 print(X1_Scaled)
 #learn model parameters
-
 theta=linear_regression(X1_Scaled,Y1_Scaled)
 #predict target value for a new data point
 new_data=np.array([165349.2,136897.8,471784.1]).reshape(-1,1)
@@ -66,10 +65,10 @@ pre=scaler.inverse_transform(prediction)
 print(prediction)
 print(f"Predicted value: {pre}")
 ```
-<br>  
-
 ## Output:
 <img src="https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/cb93aba5-4ac8-440a-b561-486e6b6eb5e6.png" width="600">  
+<br>  
+
 <img src="https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/50cfb905-8f1d-4f21-a1f1-dabcdd0cf717.png" height="700">
 <img src="https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/845a8321-5e53-429e-aca7-a27f834939c8.png" height="700">
 <img src="https://github.com/DonBoscoBlaiseA/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/140850829/8a35d235-d59e-42f3-a65a-9559c1a2a122.png" height="700">
